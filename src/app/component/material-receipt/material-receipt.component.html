@@ -1,0 +1,374 @@
+    
+    <div class="row">
+            <div class="col-md-12"> 
+                <form>          
+                    <div class="row">
+                        <div class="col-md-6">   
+                            <div class="row">
+                                <div class="col-md-12">         
+                                    <div class="form-group row">
+                                        <label for="client" class="col-md-4 col-form-label">Client</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="client" placeholder="Client" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="purchaseOrder" class="col-md-4 col-form-label">Purchase Order</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="purchaseOrder" placeholder="Purchase Order" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="documentNo" class="col-md-4 col-form-label">Document No</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="documentNo" placeholder="Document No" readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">   
+                            <div class="row">
+                                <div class="col-md-12">         
+                                    <div class="form-group row">
+                                        <label for="organization" class="col-md-4 col-form-label">Organization</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="organization" placeholder="Organization" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="dateOrdered" class="col-md-4 col-form-label">Date Ordered</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="dateOrdered" placeholder="Date Ordered" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="orderReference" class="col-md-4 col-form-label">Order Reference</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="orderReference" placeholder="Order Reference">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12">       
+                            <div class="form-group row">
+                                <label for="description" class="col-md-2 col-form-label">Description</label>
+                                <div class="col-md-10">
+                                    <textarea class="form-control" id="description" placeholder="Description" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>             
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">   
+                            <div class="row">
+                                <div class="col-md-12">         
+                                    <div class="form-group row">
+                                        <label for="documentType" class="col-md-4 col-form-label">Document Type</label>
+                                        <div class="col-md-8">
+                                            <select class="custom-select" id="documentType">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="movementDate" class="col-md-4 col-form-label">Movement Date</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="movementDate" placeholder="Movement Date" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="bussinessPartner" class="col-md-4 col-form-label">Bussiness Partner</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="bussinessPartner" placeholder="Bussiness Partner">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="userContact" class="col-md-4 col-form-label">User/Contact</label>
+                                        <div class="col-md-8">
+                                            <select class="custom-select" id="userContact">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="warehouse" class="col-md-4 col-form-label">Warehouse</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="warehouse" placeholder="Warehouse" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="comapnyAgent" class="col-md-4 col-form-label">Comapny Agent</label>
+                                        <div class="col-md-8">
+                                            <select class="custom-select" id="comapnyAgent">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="freightCostRule" class="col-md-4 col-form-label">Freight Cost Rule</label>
+                                        <div class="col-md-8">
+                                            <select class="custom-select" id="freightCostRule">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-4">&nbsp;</div>
+                                        <div class="col-md-8">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="dropShipment">
+                                                <label class="form-check-label" for="dropShipment">
+                                                    Drop Shipment
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="freightCostRule" class="col-md-4 col-form-label">&nbsp;</label>
+                                        <div class="col-md-8">
+                                            <button type="button" class="col btn btn-default">Create lines form</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">   
+                            <div class="row">
+                                <div class="col-md-12">         
+                                    <div class="form-group row d-none d-sm-block">
+                                        <label class="col-md-4 col-form-label">&nbsp;</label>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="accountDate" class="col-md-4 col-form-label">Account Date</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="accountDate" placeholder="Account Date" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="partnerLocation" class="col-md-4 col-form-label">Partner Location</label>
+                                        <div class="col-md-8">
+                                            <select class="custom-select" id="partnerLocation">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row d-none d-sm-block">
+                                        <label class="col-md-4 col-form-label">&nbsp;</label>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="priority" class="col-md-4 col-form-label">Priority</label>
+                                        <div class="col-md-8">
+                                            <select class="custom-select" id="priority">
+                                                <option selected>Choose...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row d-none d-sm-block">
+                                        <label class="col-md-4 col-form-label">&nbsp;</label>
+                                    </div>
+                                    <div class="form-group row d-none d-sm-block">
+                                        <label class="col-md-4 col-form-label">&nbsp;</label>
+                                    </div>
+                                    <div class="form-group row d-none d-sm-block">
+                                        <div class="col-md-4">&nbsp;</div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="freightCostRule" class="col-md-4 col-form-label">&nbsp;</label>
+                                        <div class="col-md-8">
+                                            <button type="button" class="col btn btn-default">Generate invoice form Receipt</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row">       
+                            <div class="col-md-12">
+                                <div id="accordion" class="accordion">
+                                    <div class="card m-b-0">
+                                        <div class="card-header collapsed mb-3" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                            <a class="card-title">
+                                                Reference
+                                            </a>
+                                        </div>
+                                        <div id="collapseOne" class="card-block collapse py-5">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group row">
+                                                                <label for="project" class="col-md-4 col-form-label">Project</label>
+                                                                <div class="col-md-8">
+                                                                    <select class="custom-select" id="project">
+                                                                        <option selected>Choose...</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="campaign" class="col-md-4 col-form-label">Campaign</label>
+                                                                <div class="col-md-8">
+                                                                    <select class="custom-select" id="campaign">
+                                                                        <option selected>Choose...</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="department" class="col-md-4 col-form-label">Department</label>
+                                                                <div class="col-md-8">
+                                                                    <select class="custom-select" id="Department">
+                                                                        <option selected>Choose...</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-md-6">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group row d-none d-sm-block">
+                                                                <label class="col-md-4 col-form-label">&nbsp;</label>
+                                                            </div>
+                                                            <div class="form-group row d-none d-sm-block">
+                                                                <label class="col-md-4 col-form-label">&nbsp;</label>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="salesCategory" class="col-md-4 col-form-label">Sales Category</label>
+                                                                <div class="col-md-8">
+                                                                    <select class="custom-select" id="salesCategory">
+                                                                        <option selected>Choose...</option>
+                                                                        <option value="1">One</option>
+                                                                        <option value="2">Two</option>
+                                                                        <option value="3">Three</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                            <a class="card-title">
+                                              Status
+                                            </a>
+                                        </div>
+                                        <div id="collapseTwo" class="card-block collapse py-5">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group row">
+                                                                <label for="movementType" class="col-md-4 col-form-label">Movement Type</label>
+                                                                <div class="col-md-8">
+                                                                    <input type="text" class="form-control" id="movementType" placeholder="Movement Type" readonly>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <div class="col-md-4">&nbsp;</div>
+                                                                <div class="col-md-8">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" id="inTransit">
+                                                                        <label class="form-check-label" for="inTransit">
+                                                                            In Transit
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="documentStatus" class="col-md-4 col-form-label">Document Status</label>
+                                                                <div class="col-md-8">
+                                                                    <input type="text" class="form-control" id="documentStatus" placeholder="Document Status" readonly>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <div class="col-md-4">&nbsp;</div>
+                                                                <div class="col-md-8">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" id="inDispute">
+                                                                        <label class="form-check-label" for="inDispute">
+                                                                            In Dispute
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-md-6">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group row">
+                                                                <label class="col-md-4 col-form-label">&nbsp;</label>
+                                                                <div class="col-md-8">
+                                                                    <button type="button" class="col btn btn-default">Create Confirmation</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="dateReceived" class="col-md-4 col-form-label">Date Received</label>
+                                                                <div class="col-md-8">
+                                                                    <input type="text" class="form-control" id="dateReceived" placeholder="Date Received">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label class="col-md-4 col-form-label">&nbsp;</label>
+                                                                <div class="col-md-8">
+                                                                    <button type="button" class="col btn btn-default">Complete</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>        
+                    
+                                       
+                </form>
+            </div>
+
+    </div>
+
+
+
+  

@@ -1,0 +1,33 @@
+
+label {
+    text-align: right;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: left;
+    padding-right: 10px; 
+}
+.accordion .card-header.collapsed:after {
+    content: "\f067"; 
+}
+
+.card {
+    border-left: none;
+    border-right: none;
+    
+}
+.collapse.show {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 10px;
+}
+.card-header {
+        border: 1px solid rgba(0,0,0,.125); 
+}
+
+@media only screen and (max-width: 767px) {
+    label {
+        text-align: left;
+    }
+}
